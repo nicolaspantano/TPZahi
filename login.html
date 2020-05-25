@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+        <title>HTML 5 – Formulario Login</title>
+        <script src="funciones.js" ></script>
+    </head>
+
+    <body>
+        <form action="./backend/verificarUsuario.php" method="POST" name="loginEmpleados">
+            <h2>
+                Login
+            </h2>
+
+            <table style="margin-left: 4cm;">
+                <tr>
+                    <td colspan="2"><h4>Ingreso de credenciales</h4></td>
+                </tr>  
+
+                <tr>
+                    <td 
+                        colspan="2"><hr width="100%" align="left">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>DNI:
+                    </td>
+                    <td> 
+                        <input type="number" id="txtDniLogin" min="1000000" max="55000000" name="dniLogin">
+                        <span style="display: none;" id="spanDni" name = "span">*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Apellido: 
+                    </td>
+                    <td> 
+                        <input type="text" id="txtApellidoLogin" name="apellidoLogin">
+                        <span style="display: none;" id="spanApellido" name = "span">*</span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td 
+                        colspan="2"><hr width="100%" align="left">
+                    </td>
+                </tr> 
+				<tr>
+					<td colspan="2" align="right">
+						<input type="reset" value="Limpiar"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="right">
+                        <input type="submit" id="btnEnviar" value="Enviar" onclick="AdministrarValidacionesLogin(event)" name="enviarLogin"/>
+					</td>
+				</tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+1000001-Juan-Perez-M-101-8500-Tarde-../fotos/1000001-Perez.png
+1000033-Susana-Gimenez-F-112-9500-Noche-../fotos/1000033-Gimenez.png
+1000008-Gustavo-Cordera-M-115-25000-Noche-../fotos/1000008-Cordera.png
+1000038-Roberto-Sanchez-M-106-20000-Mañana-../fotos/1000038-Sanchez.png
+1000002-Sofia-Hernandez-F-153-9000-Mañana-../fotos/1000002-Hernandez.png
